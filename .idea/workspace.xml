@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1aba11f5-2bec-4c9d-99c5-f2e7955688cd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/br/com/caelum/argentum/testes/TestaCandlestickFactorySemNegociacoes.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/com/caelum/argentum/modelo/CandlestickFactory.java" afterPath="$PROJECT_DIR$/src/br/com/caelum/argentum/modelo/CandlestickFactory.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,8 +32,20 @@
       <file leaf-file-name="CandlestickFactory.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/br/com/caelum/argentum/modelo/CandlestickFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="54" lean-forward="true" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
+            <state relative-caret-position="432">
+              <caret line="24" column="56" lean-forward="false" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestaCandlestickFactorySemNegociacoes.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/br/com/caelum/argentum/testes/TestaCandlestickFactorySemNegociacoes.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -46,30 +58,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="504">
               <caret line="28" column="47" lean-forward="true" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestaCandlestickFactoryComUmaNegociacaoApenas.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/br/com/caelum/argentum/testes/TestaCandlestickFactoryComUmaNegociacaoApenas.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="24" column="33" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="25" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestaCandlestickFactorySemNegociacoes.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/br/com/caelum/argentum/testes/TestaCandlestickFactorySemNegociacoes.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" column="55" lean-forward="true" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -112,10 +100,10 @@
       <list>
         <option value="$PROJECT_DIR$/src/br/com/caelum/argentum/modelo/Negociacao.java" />
         <option value="$PROJECT_DIR$/src/br/com/caelum/argentum/modelo/Candlestick.java" />
-        <option value="$PROJECT_DIR$/src/br/com/caelum/argentum/modelo/CandlestickFactory.java" />
         <option value="$PROJECT_DIR$/src/br/com/caelum/argentum/testes/TestaCandlestickFactory.java" />
         <option value="$PROJECT_DIR$/src/br/com/caelum/argentum/testes/TestaCandlestickFactoryComUmaNegociacaoApenas.java" />
         <option value="$PROJECT_DIR$/src/br/com/caelum/argentum/testes/TestaCandlestickFactorySemNegociacoes.java" />
+        <option value="$PROJECT_DIR$/src/br/com/caelum/argentum/modelo/CandlestickFactory.java" />
       </list>
     </option>
   </component>
@@ -753,7 +741,7 @@
       <updated>1485539181165</updated>
       <workItem from="1485539194091" duration="3037000" />
       <workItem from="1485542342643" duration="62000" />
-      <workItem from="1485782592124" duration="7261000" />
+      <workItem from="1485782592124" duration="7599000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1485541930639</created>
@@ -776,11 +764,18 @@
       <option name="project" value="LOCAL" />
       <updated>1485796318605</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Teste sem negociação.">
+      <created>1485797406384</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1485797406384</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10360000" />
+    <option name="totallyTimeSpent" value="10698000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="865" extended-state="6" />
@@ -822,7 +817,7 @@
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27405247" sideWeight="0.50574714" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27405247" sideWeight="0.50574714" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -858,7 +853,8 @@
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Fábrica de Candlestick e teste." />
     <MESSAGE value="Teste com apenas uma negociação." />
-    <option name="LAST_COMMIT_MESSAGE" value="Teste com apenas uma negociação." />
+    <MESSAGE value="Teste sem negociação." />
+    <option name="LAST_COMMIT_MESSAGE" value="Teste sem negociação." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -907,10 +903,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/caelum/argentum/modelo/CandlestickFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/br/com/caelum/argentum/testes/TestaCandlestickFactoryComUmaNegociacaoApenas.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="54" lean-forward="true" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
+        <state relative-caret-position="432">
+          <caret line="24" column="33" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="25" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -927,10 +923,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/caelum/argentum/testes/TestaCandlestickFactoryComUmaNegociacaoApenas.java">
+    <entry file="file://$PROJECT_DIR$/src/br/com/caelum/argentum/modelo/CandlestickFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
-          <caret line="24" column="33" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="25" selection-end-column="47" />
+          <caret line="24" column="56" lean-forward="false" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -939,8 +935,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/br/com/caelum/argentum/testes/TestaCandlestickFactorySemNegociacoes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="55" lean-forward="true" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
+        <state relative-caret-position="288">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
