@@ -11,7 +11,7 @@ import static org.junit.Assert.*;
 public class NegociacaoTest {
 
     @Test
-    public void dataDaNegociacaoEhImtavel(){
+    public void dataDaNegociacaoEhImutavel(){
         // se criar um negocio no dia 15...
         Calendar calendar = Calendar.getInstance();
         calendar.set(Calendar.DAY_OF_MONTH, 15);
@@ -24,24 +24,9 @@ public class NegociacaoTest {
         Assert.assertEquals(15, negociacao.getData().get(Calendar.DAY_OF_MONTH));
 
     }
-    @Test
-    public void getPreco() throws Exception {
-
-    }
-
-    @Test
-    public void getQuantidade() throws Exception {
-
-    }
-
-    @Test
-    public void getData() throws Exception {
-
-    }
-
-    @Test
-    public void getVolume() throws Exception {
-
+    @Test (expected = IllegalArgumentException.class)
+    public void naoCriaNegociacaoComDataNula() {
+        new Negociacao(10, 5, null);
     }
 
 }
