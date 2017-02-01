@@ -35,4 +35,16 @@ public class CandlestickFactoryTest {
         Assert.assertEquals(16760.0, candle.getVolume(), 0.00001);
 	}
 
+	@Test
+    public void semNegociacaoGeraCandleComZeros() {
+	    Calendar hoje = Calendar.getInstance();
+
+	    List<Negociacao> negociacoes = Arrays.asList();
+
+        CandlestickFactory factory = new CandlestickFactory();
+        Candlestick candle = factory.constroiCandleParaData(hoje, negociacoes);
+
+        Assert.assertEquals(0.0, candle.getVolume(), 0.00001);
+    }
+
 }
