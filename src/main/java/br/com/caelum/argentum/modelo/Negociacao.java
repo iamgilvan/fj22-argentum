@@ -21,8 +21,9 @@ public final class Negociacao {
         return quantidade;
     }
 
+    //Retornando uma coṕia do objeto, assegurando-se que o original permanece intacto.
     public Calendar getData() {
-        return data;
+        return (Calendar) this.data.clone();
     }
 
     public double getVolume(){
