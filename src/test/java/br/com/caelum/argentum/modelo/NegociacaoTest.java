@@ -24,7 +24,7 @@ public class NegociacaoTest {
         Assert.assertEquals(15, negociacao.getData().get(Calendar.DAY_OF_MONTH));
 
     }
-    //Esse teste indica sucesso cado uma esception for lançada.
+    //Esse teste indica sucesso cado uma exception for lançada.
     @Test (expected = IllegalArgumentException.class)
     public void naoCriaNegociacaoComDataNula() {
         new Negociacao(10, 5, null);

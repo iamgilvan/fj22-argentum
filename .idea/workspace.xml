@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1aba11f5-2bec-4c9d-99c5-f2e7955688cd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/fj22-argentum/test/java/br/com/caelum/argentum/modelo/NegociacaoTest.class" afterPath="$PROJECT_DIR$/out/production/fj22-argentum/test/java/br/com/caelum/argentum/modelo/NegociacaoTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/br/com/caelum/argentum/modelo/NegociacaoTest.java" afterPath="$PROJECT_DIR$/src/test/java/br/com/caelum/argentum/modelo/NegociacaoTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,8 +21,8 @@
       <file leaf-file-name="NegociacaoTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/br/com/caelum/argentum/modelo/NegociacaoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-74">
-              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="214">
+              <caret line="26" column="43" lean-forward="false" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
               <folding>
                 <element signature="e#922#923#0" expanded="true" />
                 <element signature="e#965#966#0" expanded="true" />
@@ -90,8 +88,8 @@
         <option value="$PROJECT_DIR$/src/br/com/caelum/argentum/testes/TestaCandlestickFactorySemNegociacoes.java" />
         <option value="$PROJECT_DIR$/src/br/com/caelum/argentum/modelo/CandlestickFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/caelum/argentum/modelo/Negociacao.java" />
-        <option value="$PROJECT_DIR$/src/test/java/br/com/caelum/argentum/modelo/NegociacaoTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/br/com/caelum/argentum/modelo/CandlestickFactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/br/com/caelum/argentum/modelo/NegociacaoTest.java" />
       </list>
     </option>
   </component>
@@ -811,7 +809,7 @@
       <workItem from="1485542342643" duration="62000" />
       <workItem from="1485782592124" duration="7599000" />
       <workItem from="1485953565639" duration="677000" />
-      <workItem from="1485954491783" duration="5675000" />
+      <workItem from="1485954491783" duration="5903000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1485541930639</created>
@@ -862,7 +860,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17050000" />
+    <option name="totallyTimeSpent" value="17278000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="865" extended-state="6" />
@@ -991,8 +989,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/br/com/caelum/argentum/modelo/NegociacaoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-74">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="214">
+          <caret line="26" column="43" lean-forward="false" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
           <folding>
             <element signature="e#922#923#0" expanded="true" />
             <element signature="e#965#966#0" expanded="true" />
