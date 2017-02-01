@@ -1,16 +1,17 @@
-package br.com.caelum.argentum.testes;
-
-import br.com.caelum.argentum.modelo.Candlestick;
-import br.com.caelum.argentum.modelo.CandlestickFactory;
-import br.com.caelum.argentum.modelo.Negociacao;
+package main.java.br.com.caelum.argentum.testes;
 
 import java.util.Arrays;
 import java.util.Calendar;
 import java.util.List;
 
+import main.java.br.com.caelum.argentum.modelo.Candlestick;
+import main.java.br.com.caelum.argentum.modelo.CandlestickFactory;
+import main.java.br.com.caelum.argentum.modelo.Negociacao;
+
 public class TestaCandlestickFactoryComUmaNegociacaoApenas {
-    public static void main(String[] args) {
-        Calendar hoje = Calendar.getInstance();
+
+	public static void main(String[] args) {
+		Calendar hoje = Calendar.getInstance();
 
         Negociacao negociacao1 = new Negociacao(40.5, 100, hoje);
 
@@ -24,5 +25,6 @@ public class TestaCandlestickFactoryComUmaNegociacaoApenas {
         System.out.println(candle.getMinimo());
         System.out.println(candle.getMaximo());
         System.out.println(candle.getVolume());
-    }
+	}
+
 }

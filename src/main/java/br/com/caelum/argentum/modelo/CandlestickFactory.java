@@ -1,4 +1,4 @@
-package br.com.caelum.argentum.modelo;
+package main.java.br.com.caelum.argentum.modelo;
 
 import java.util.Calendar;
 import java.util.List;
