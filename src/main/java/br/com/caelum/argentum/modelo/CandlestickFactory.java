@@ -36,6 +36,9 @@ public class CandlestickFactory {
         Calendar dataAtual = todasNegociacoes.get(0).getData();
 
         for (Negociacao negociacao : todasNegociacoes) {
+            if (negociacao.getData().before(dataAtual)){
+                throw new IllegalStateException("negociações em ordem errada");
+            }
             // se não for mesmo dia, fechar candle e reinicia variáveis
             if (!negociacao.isMesmoDia(dataAtual)){
                 Candlestick candleDoDia = constroiCandleParaData(dataAtual, negociacoesDoDia);
