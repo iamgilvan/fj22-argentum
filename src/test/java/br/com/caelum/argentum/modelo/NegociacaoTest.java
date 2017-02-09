@@ -5,6 +5,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.Calendar;
+import java.util.GregorianCalendar;
 
 import static org.junit.Assert.*;
 
@@ -38,5 +39,16 @@ public class NegociacaoTest {
 
         Negociacao negociacao = new Negociacao(40.0, 100, agora);
         Assert.assertTrue(negociacao.isMesmoDia(mesmoMomento));
+    }
+
+    // Teste JUnit com horarios Diferentes e no mesmo dia
+    @Test
+    public void comHorariosDiferentesEhNoMesmoDia() {
+        // usando GregorianCalendar(ano, mes, dia, hora, minuto)
+        Calendar manha = new GregorianCalendar(2011,10,20,8,30);
+        Calendar tarde = new GregorianCalendar(2011,10,20,15,30);
+
+        Negociacao negociacao = new Negociacao(40.0,100, manha);
+        Assert.assertTrue(negociacao.isMesmoDia(tarde));
     }
 }

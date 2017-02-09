@@ -34,6 +34,6 @@ public final class Negociacao {
     }
 
     public boolean isMesmoDia(Calendar outraData) {
-        return this.data.equals(outraData);
+        return this.data.get(Calendar.DAY_OF_MONTH) == outraData.get(Calendar.DAY_OF_MONTH);
     }
 }
