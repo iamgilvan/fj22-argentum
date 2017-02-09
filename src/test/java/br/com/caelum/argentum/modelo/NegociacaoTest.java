@@ -30,4 +30,13 @@ public class NegociacaoTest {
         new Negociacao(10, 5, null);
     }
 
+    //Teste de verificação se a negociação aconteceu na data atual
+    @Test
+    public void mesmoMilissegundoEhDoMesmoDia(){
+        Calendar agora = Calendar.getInstance();
+        Calendar mesmoMomento = (Calendar) agora.clone();
+
+        Negociacao negociacao = new Negociacao(40.0, 100, agora);
+        Assert.assertTrue(negociacao.isMesmoDia(mesmoMomento));
+    }
 }
