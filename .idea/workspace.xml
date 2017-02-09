@@ -22,8 +22,8 @@
       <file leaf-file-name="NegociacaoTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/br/com/caelum/argentum/modelo/NegociacaoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="50" column="50" lean-forward="true" selection-start-line="50" selection-start-column="50" selection-end-line="50" selection-end-column="50" />
+            <state relative-caret-position="472">
+              <caret line="71" column="1" lean-forward="true" selection-start-line="71" selection-start-column="1" selection-end-line="71" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -34,8 +34,8 @@
       <file leaf-file-name="Negociacao.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/com/caelum/argentum/modelo/Negociacao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="36" column="92" lean-forward="false" selection-start-line="36" selection-start-column="92" selection-end-line="36" selection-end-column="92" />
+            <state relative-caret-position="394">
+              <caret line="37" column="81" lean-forward="false" selection-start-line="37" selection-start-column="81" selection-end-line="37" selection-end-column="81" />
               <folding />
             </state>
           </provider>
@@ -68,8 +68,8 @@
         <option value="$PROJECT_DIR$/src/br/com/caelum/argentum/testes/TestaCandlestickFactorySemNegociacoes.java" />
         <option value="$PROJECT_DIR$/src/br/com/caelum/argentum/modelo/CandlestickFactory.java" />
         <option value="$PROJECT_DIR$/src/test/java/br/com/caelum/argentum/modelo/CandlestickFactoryTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/br/com/caelum/argentum/modelo/NegociacaoTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/caelum/argentum/modelo/Negociacao.java" />
+        <option value="$PROJECT_DIR$/src/test/java/br/com/caelum/argentum/modelo/NegociacaoTest.java" />
       </list>
     </option>
   </component>
@@ -189,59 +189,7 @@
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
   </component>
-  <component name="RunManager" selected="JUnit.NegociacaoTest.comHorariosDiferentesEhNoMesmoDia">
-    <configuration default="false" name="NegociacaoTest.getPreco" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="test.java.br.com.caelum.argentum.modelo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="fj22-argentum" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="test.java.br.com.caelum.argentum.modelo" />
-      <option name="MAIN_CLASS_NAME" value="test.java.br.com.caelum.argentum.modelo.NegociacaoTest" />
-      <option name="METHOD_NAME" value="getPreco" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="NegociacaoTest.naoCriaNegociacaoComDataNula" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="test.java.br.com.caelum.argentum.modelo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="fj22-argentum" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="test.java.br.com.caelum.argentum.modelo" />
-      <option name="MAIN_CLASS_NAME" value="test.java.br.com.caelum.argentum.modelo.NegociacaoTest" />
-      <option name="METHOD_NAME" value="naoCriaNegociacaoComDataNula" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.NegociacaoTest.mesmoDiaEMesMasAnosDiferesNaoSaoMesmoDia">
     <configuration default="false" name="CandlestickFactoryTest.semNegociacaoGeraCandleComZeros" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -307,6 +255,58 @@
       <option name="PACKAGE_NAME" value="test.java.br.com.caelum.argentum.modelo" />
       <option name="MAIN_CLASS_NAME" value="test.java.br.com.caelum.argentum.modelo.NegociacaoTest" />
       <option name="METHOD_NAME" value="comHorariosDiferentesEhNoMesmoDia" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="NegociacaoTest.mesmoDiaMasMesesDiferentesNaoSaoDoMesmoDia" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="test.java.br.com.caelum.argentum.modelo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="fj22-argentum" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="test.java.br.com.caelum.argentum.modelo" />
+      <option name="MAIN_CLASS_NAME" value="test.java.br.com.caelum.argentum.modelo.NegociacaoTest" />
+      <option name="METHOD_NAME" value="mesmoDiaMasMesesDiferentesNaoSaoDoMesmoDia" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="NegociacaoTest.mesmoDiaEMesMasAnosDiferesNaoSaoMesmoDia" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="test.java.br.com.caelum.argentum.modelo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="fj22-argentum" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="test.java.br.com.caelum.argentum.modelo" />
+      <option name="MAIN_CLASS_NAME" value="test.java.br.com.caelum.argentum.modelo.NegociacaoTest" />
+      <option name="METHOD_NAME" value="mesmoDiaEMesMasAnosDiferesNaoSaoMesmoDia" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -768,19 +768,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.NegociacaoTest.getPreco" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.NegociacaoTest.naoCriaNegociacaoComDataNula" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.CandlestickFactoryTest.semNegociacaoGeraCandleComZeros" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.NegociacaoTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.NegociacaoTest.comHorariosDiferentesEhNoMesmoDia" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.CandlestickFactoryTest.semNegociacaoGeraCandleComZeros" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.NegociacaoTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.NegociacaoTest.comHorariosDiferentesEhNoMesmoDia" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.NegociacaoTest.mesmoDiaMasMesesDiferentesNaoSaoDoMesmoDia" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.NegociacaoTest.mesmoDiaEMesMasAnosDiferesNaoSaoMesmoDia" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.NegociacaoTest.comHorariosDiferentesEhNoMesmoDia" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.NegociacaoTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.CandlestickFactoryTest.semNegociacaoGeraCandleComZeros" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.NegociacaoTest.naoCriaNegociacaoComDataNula" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.NegociacaoTest.getPreco" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.NegociacaoTest.mesmoDiaEMesMasAnosDiferesNaoSaoMesmoDia" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.NegociacaoTest.mesmoDiaMasMesesDiferentesNaoSaoDoMesmoDia" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.NegociacaoTest.comHorariosDiferentesEhNoMesmoDia" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.NegociacaoTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.CandlestickFactoryTest.semNegociacaoGeraCandleComZeros" />
       </list>
     </recent_temporary>
   </component>
@@ -809,7 +809,7 @@
       <workItem from="1485954491783" duration="5903000" />
       <workItem from="1486487939491" duration="1215000" />
       <workItem from="1486556787089" duration="1808000" />
-      <workItem from="1486645819927" duration="1469000" />
+      <workItem from="1486645819927" duration="2526000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1485541930639</created>
@@ -843,9 +843,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CandlestickFactoryTest_semNegociacaoGeraCandleComZeros - 2017.02.01 at 15h 20m 08s.xml">
-      <configuration name="CandlestickFactoryTest.semNegociacaoGeraCandleComZeros" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CandlestickFactoryTest_semNegociacaoGeraCandleComZeros - 2017.02.01 at 15h 23m 06s.xml">
       <configuration name="CandlestickFactoryTest.semNegociacaoGeraCandleComZeros" configurationId="JUnit" />
     </history-entry>
@@ -861,6 +858,15 @@
     <history-entry file="NegociacaoTest_getPreco - 2017.02.01 at 11h 44m 20s.xml">
       <configuration name="NegociacaoTest.getPreco" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="NegociacaoTest_mesmoDiaEMesMasAnosDiferesNaoSaoMesmoDia - 2017.02.09 at 11h 50m 30s.xml">
+      <configuration name="NegociacaoTest.mesmoDiaEMesMasAnosDiferesNaoSaoMesmoDia" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NegociacaoTest_mesmoDiaEMesMasAnosDiferesNaoSaoMesmoDia - 2017.02.09 at 11h 51m 15s.xml">
+      <configuration name="NegociacaoTest.mesmoDiaEMesMasAnosDiferesNaoSaoMesmoDia" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NegociacaoTest_mesmoDiaMasMesesDiferentesNaoSaoDoMesmoDia - 2017.02.09 at 11h 46m 02s.xml">
+      <configuration name="NegociacaoTest.mesmoDiaMasMesesDiferentesNaoSaoDoMesmoDia" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="NegociacaoTest_naoCriaNegociacaoComDataNula - 2017.02.01 at 15h 00m 16s.xml">
       <configuration name="NegociacaoTest.naoCriaNegociacaoComDataNula" configurationId="JUnit" />
     </history-entry>
@@ -869,7 +875,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21770000" />
+    <option name="totallyTimeSpent" value="22827000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="0" width="1440" height="900" extended-state="6" />
@@ -885,7 +891,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27405247" sideWeight="0.50574714" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28432733" sideWeight="0.49425286" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21359223" sideWeight="0.49425286" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1115,16 +1121,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/caelum/argentum/modelo/Negociacao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="36" column="92" lean-forward="false" selection-start-line="36" selection-start-column="92" selection-end-line="36" selection-end-column="92" />
+        <state relative-caret-position="394">
+          <caret line="37" column="81" lean-forward="false" selection-start-line="37" selection-start-column="81" selection-end-line="37" selection-end-column="81" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/br/com/caelum/argentum/modelo/NegociacaoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="50" column="50" lean-forward="true" selection-start-line="50" selection-start-column="50" selection-end-line="50" selection-end-column="50" />
+        <state relative-caret-position="472">
+          <caret line="71" column="1" lean-forward="true" selection-start-line="71" selection-start-column="1" selection-end-line="71" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

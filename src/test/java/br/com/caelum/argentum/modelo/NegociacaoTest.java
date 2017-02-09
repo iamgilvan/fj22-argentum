@@ -51,4 +51,22 @@ public class NegociacaoTest {
         Negociacao negociacao = new Negociacao(40.0,100, manha);
         Assert.assertTrue(negociacao.isMesmoDia(tarde));
     }
+    // Teste JUnit com mesmo dia mas meses diferentes
+    @Test
+    public void mesmoDiaMasMesesDiferentesNaoSaoDoMesmoDia(){
+        Calendar jan = new GregorianCalendar(2011,1,20,8,30);
+        Calendar feb = new GregorianCalendar(2011,2,20,15,30);
+
+        Negociacao negociacao = new Negociacao(40.0,100, jan);
+        Assert.assertFalse(negociacao.isMesmoDia(feb));
+    }
+    // Teste JUnit com dia e meses iguais mas ano diferentes
+    @Test
+    public void mesmoDiaEMesMasAnosDiferesNaoSaoMesmoDia(){
+        Calendar atual = new GregorianCalendar(2017,1,20,8,30);
+        Calendar anterior = new GregorianCalendar(2016,1,20,15,30);
+
+        Negociacao negociacao = new Negociacao(40.0,100, atual);
+        Assert.assertFalse(negociacao.isMesmoDia(anterior));
+    }
 }
